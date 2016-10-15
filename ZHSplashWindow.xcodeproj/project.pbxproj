@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8C406541DB1BEB20075ECDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C406531DB1BEB20075ECDE /* AppDelegate.swift */; };
+		B8C406561DB1BEB20075ECDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C406551DB1BEB20075ECDE /* ViewController.swift */; };
+		B8C406591DB1BEB20075ECDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8C406571DB1BEB20075ECDE /* Main.storyboard */; };
+		B8C4065B1DB1BEB20075ECDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8C4065A1DB1BEB20075ECDE /* Assets.xcassets */; };
+		B8C4065E1DB1BEB20075ECDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8C4065C1DB1BEB20075ECDE /* LaunchScreen.storyboard */; };
+		B8C406691DB1BEB20075ECDE /* ZHSplashWindowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C406681DB1BEB20075ECDE /* ZHSplashWindowTests.swift */; };
+		B8C406741DB1BEB20075ECDE /* ZHSplashWindowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C406731DB1BEB20075ECDE /* ZHSplashWindowUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8C406651DB1BEB20075ECDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8C406481DB1BEB20075ECDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8C4064F1DB1BEB20075ECDE;
+			remoteInfo = ZHSplashWindow;
+		};
+		B8C406701DB1BEB20075ECDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8C406481DB1BEB20075ECDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8C4064F1DB1BEB20075ECDE;
+			remoteInfo = ZHSplashWindow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B8C406501DB1BEB20075ECDE /* ZHSplashWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHSplashWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8C406531DB1BEB20075ECDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B8C406551DB1BEB20075ECDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B8C406581DB1BEB20075ECDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8C4065A1DB1BEB20075ECDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8C4065D1DB1BEB20075ECDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8C4065F1DB1BEB20075ECDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8C406641DB1BEB20075ECDE /* ZHSplashWindowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHSplashWindowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8C406681DB1BEB20075ECDE /* ZHSplashWindowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZHSplashWindowTests.swift; sourceTree = "<group>"; };
+		B8C4066A1DB1BEB20075ECDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8C4066F1DB1BEB20075ECDE /* ZHSplashWindowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHSplashWindowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8C406731DB1BEB20075ECDE /* ZHSplashWindowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZHSplashWindowUITests.swift; sourceTree = "<group>"; };
+		B8C406751DB1BEB20075ECDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8C4064D1DB1BEB20075ECDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8C406611DB1BEB20075ECDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8C4066C1DB1BEB20075ECDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8C406471DB1BEB20075ECDE = {
+			isa = PBXGroup;
+			children = (
+				B8C406521DB1BEB20075ECDE /* ZHSplashWindow */,
+				B8C406671DB1BEB20075ECDE /* ZHSplashWindowTests */,
+				B8C406721DB1BEB20075ECDE /* ZHSplashWindowUITests */,
+				B8C406511DB1BEB20075ECDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8C406511DB1BEB20075ECDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8C406501DB1BEB20075ECDE /* ZHSplashWindow.app */,
+				B8C406641DB1BEB20075ECDE /* ZHSplashWindowTests.xctest */,
+				B8C4066F1DB1BEB20075ECDE /* ZHSplashWindowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8C406521DB1BEB20075ECDE /* ZHSplashWindow */ = {
+			isa = PBXGroup;
+			children = (
+				B8C406531DB1BEB20075ECDE /* AppDelegate.swift */,
+				B8C406551DB1BEB20075ECDE /* ViewController.swift */,
+				B8C406571DB1BEB20075ECDE /* Main.storyboard */,
+				B8C4065A1DB1BEB20075ECDE /* Assets.xcassets */,
+				B8C4065C1DB1BEB20075ECDE /* LaunchScreen.storyboard */,
+				B8C4065F1DB1BEB20075ECDE /* Info.plist */,
+			);
+			path = ZHSplashWindow;
+			sourceTree = "<group>";
+		};
+		B8C406671DB1BEB20075ECDE /* ZHSplashWindowTests */ = {
+			isa = PBXGroup;
+			children = (
+				B8C406681DB1BEB20075ECDE /* ZHSplashWindowTests.swift */,
+				B8C4066A1DB1BEB20075ECDE /* Info.plist */,
+			);
+			path = ZHSplashWindowTests;
+			sourceTree = "<group>";
+		};
+		B8C406721DB1BEB20075ECDE /* ZHSplashWindowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B8C406731DB1BEB20075ECDE /* ZHSplashWindowUITests.swift */,
+				B8C406751DB1BEB20075ECDE /* Info.plist */,
+			);
+			path = ZHSplashWindowUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8C4064F1DB1BEB20075ECDE /* ZHSplashWindow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8C406781DB1BEB20075ECDE /* Build configuration list for PBXNativeTarget "ZHSplashWindow" */;
+			buildPhases = (
+				B8C4064C1DB1BEB20075ECDE /* Sources */,
+				B8C4064D1DB1BEB20075ECDE /* Frameworks */,
+				B8C4064E1DB1BEB20075ECDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHSplashWindow;
+			productName = ZHSplashWindow;
+			productReference = B8C406501DB1BEB20075ECDE /* ZHSplashWindow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8C406631DB1BEB20075ECDE /* ZHSplashWindowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8C4067B1DB1BEB20075ECDE /* Build configuration list for PBXNativeTarget "ZHSplashWindowTests" */;
+			buildPhases = (
+				B8C406601DB1BEB20075ECDE /* Sources */,
+				B8C406611DB1BEB20075ECDE /* Frameworks */,
+				B8C406621DB1BEB20075ECDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8C406661DB1BEB20075ECDE /* PBXTargetDependency */,
+			);
+			name = ZHSplashWindowTests;
+			productName = ZHSplashWindowTests;
+			productReference = B8C406641DB1BEB20075ECDE /* ZHSplashWindowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B8C4066E1DB1BEB20075ECDE /* ZHSplashWindowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8C4067E1DB1BEB20075ECDE /* Build configuration list for PBXNativeTarget "ZHSplashWindowUITests" */;
+			buildPhases = (
+				B8C4066B1DB1BEB20075ECDE /* Sources */,
+				B8C4066C1DB1BEB20075ECDE /* Frameworks */,
+				B8C4066D1DB1BEB20075ECDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8C406711DB1BEB20075ECDE /* PBXTargetDependency */,
+			);
+			name = ZHSplashWindowUITests;
+			productName = ZHSplashWindowUITests;
+			productReference = B8C4066F1DB1BEB20075ECDE /* ZHSplashWindowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8C406481DB1BEB20075ECDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Planhola;
+				TargetAttributes = {
+					B8C4064F1DB1BEB20075ECDE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					B8C406631DB1BEB20075ECDE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B8C4064F1DB1BEB20075ECDE;
+					};
+					B8C4066E1DB1BEB20075ECDE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B8C4064F1DB1BEB20075ECDE;
+					};
+				};
+			};
+			buildConfigurationList = B8C4064B1DB1BEB20075ECDE /* Build configuration list for PBXProject "ZHSplashWindow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8C406471DB1BEB20075ECDE;
+			productRefGroup = B8C406511DB1BEB20075ECDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8C4064F1DB1BEB20075ECDE /* ZHSplashWindow */,
+				B8C406631DB1BEB20075ECDE /* ZHSplashWindowTests */,
+				B8C4066E1DB1BEB20075ECDE /* ZHSplashWindowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8C4064E1DB1BEB20075ECDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8C4065E1DB1BEB20075ECDE /* LaunchScreen.storyboard in Resources */,
+				B8C4065B1DB1BEB20075ECDE /* Assets.xcassets in Resources */,
+				B8C406591DB1BEB20075ECDE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8C406621DB1BEB20075ECDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8C4066D1DB1BEB20075ECDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8C4064C1DB1BEB20075ECDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8C406561DB1BEB20075ECDE /* ViewController.swift in Sources */,
+				B8C406541DB1BEB20075ECDE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8C406601DB1BEB20075ECDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8C406691DB1BEB20075ECDE /* ZHSplashWindowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8C4066B1DB1BEB20075ECDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8C406741DB1BEB20075ECDE /* ZHSplashWindowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8C406661DB1BEB20075ECDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8C4064F1DB1BEB20075ECDE /* ZHSplashWindow */;
+			targetProxy = B8C406651DB1BEB20075ECDE /* PBXContainerItemProxy */;
+		};
+		B8C406711DB1BEB20075ECDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8C4064F1DB1BEB20075ECDE /* ZHSplashWindow */;
+			targetProxy = B8C406701DB1BEB20075ECDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B8C406571DB1BEB20075ECDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8C406581DB1BEB20075ECDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B8C4065C1DB1BEB20075ECDE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8C4065D1DB1BEB20075ECDE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8C406761DB1BEB20075ECDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8C406771DB1BEB20075ECDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8C406791DB1BEB20075ECDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZHSplashWindow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.planhola.ZHSplashWindow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B8C4067A1DB1BEB20075ECDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZHSplashWindow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.planhola.ZHSplashWindow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B8C4067C1DB1BEB20075ECDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZHSplashWindowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.planhola.ZHSplashWindowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHSplashWindow.app/ZHSplashWindow";
+			};
+			name = Debug;
+		};
+		B8C4067D1DB1BEB20075ECDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZHSplashWindowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.planhola.ZHSplashWindowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHSplashWindow.app/ZHSplashWindow";
+			};
+			name = Release;
+		};
+		B8C4067F1DB1BEB20075ECDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ZHSplashWindowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.planhola.ZHSplashWindowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ZHSplashWindow;
+			};
+			name = Debug;
+		};
+		B8C406801DB1BEB20075ECDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ZHSplashWindowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.planhola.ZHSplashWindowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ZHSplashWindow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8C4064B1DB1BEB20075ECDE /* Build configuration list for PBXProject "ZHSplashWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8C406761DB1BEB20075ECDE /* Debug */,
+				B8C406771DB1BEB20075ECDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8C406781DB1BEB20075ECDE /* Build configuration list for PBXNativeTarget "ZHSplashWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8C406791DB1BEB20075ECDE /* Debug */,
+				B8C4067A1DB1BEB20075ECDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B8C4067B1DB1BEB20075ECDE /* Build configuration list for PBXNativeTarget "ZHSplashWindowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8C4067C1DB1BEB20075ECDE /* Debug */,
+				B8C4067D1DB1BEB20075ECDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B8C4067E1DB1BEB20075ECDE /* Build configuration list for PBXNativeTarget "ZHSplashWindowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8C4067F1DB1BEB20075ECDE /* Debug */,
+				B8C406801DB1BEB20075ECDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8C406481DB1BEB20075ECDE /* Project object */;
+}
